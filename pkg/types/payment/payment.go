@@ -3,7 +3,7 @@ package payment
 import (
 	"time"
 
-	types "github.com/alif-academy-uz/card-Matthew-Mak/pkg/types/card"
+	types "github.com/Matthew-Mak/card-Matthew-Mak/pkg/types/card"
 )
 
 type Payment struct {
