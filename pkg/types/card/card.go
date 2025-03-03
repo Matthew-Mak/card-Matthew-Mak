@@ -11,6 +11,7 @@ type Card struct {
 	AccountID string
 	Pan       PAN
 	Balance   Amount
+	IsActive  bool
 }
 
 const (
