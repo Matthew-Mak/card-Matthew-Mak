@@ -5,10 +5,10 @@ import (
 	"time"
 )
 
-type transaction struct {
-	id            int
-	cardId        string
-	operationType bool
-	amount        cards.Amount
-	timestamp     time.Time
+type Transaction struct {
+	Id            int
+	CardId        string
+	OperationType bool
+	Amount        cards.Amount
+	Timestamp     time.Time
 }
