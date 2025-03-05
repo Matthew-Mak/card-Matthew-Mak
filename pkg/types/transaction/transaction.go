@@ -8,7 +8,7 @@ import (
 type Transaction struct {
 	Id            int
 	CardId        string
-	OperationType bool
+	OperationType string
 	Amount        cards.Amount
 	Timestamp     time.Time
 }
