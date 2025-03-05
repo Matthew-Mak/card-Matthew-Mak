@@ -7,9 +7,9 @@ type PAN string
 type Currency string
 
 type Card struct {
-	Id        int
 	AccountID string
 	Pan       PAN
+	ID        int
 	Balance   Amount
 	IsActive  bool
 }

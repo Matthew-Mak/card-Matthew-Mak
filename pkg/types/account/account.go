@@ -3,8 +3,8 @@ package account
 import "time"
 
 type Account struct {
-	Id       int
-	UniqueId string
-	Phone    string
 	CreateAt time.Time
+	UniqueID string
+	Phone    string
+	ID       int
 }
