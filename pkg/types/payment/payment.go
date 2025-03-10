@@ -13,6 +13,8 @@ type Payment struct {
 	Balance      types.Amount
 	Currency     types.Currency
 	CreatingDate time.Time
+	ChangeDate   time.Time
+	ChangeReason string
 	Category     string
 }
 
