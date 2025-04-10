@@ -1,7 +1,7 @@
 package favorite
 
 type Favorite struct {
-	ID        string
+	ID        int
 	PaymentID string
 	Name      string
 }
